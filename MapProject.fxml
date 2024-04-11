@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane>
+	<!-- TODO Add Nodes -->
+</AnchorPane>
+      <ImageView fitHeight="477.0" fitWidth="610.0" layoutX="13.0" layoutY="-18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/WorldMapReal.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="NAButton" layoutX="103.0" layoutY="118.0" mnemonicParsing="false" onAction="#NAButtonClicked" text="NA" />
+      <Button fx:id="SAButton" layoutX="181.0" layoutY="208.0" mnemonicParsing="false" onAction="#SAButtonClicked" text="SA" />
+      <Button fx:id="AntBUtton" layoutX="276.0" layoutY="360.0" mnemonicParsing="false" onAction="#AntButtonClicked" text="Antarctica" />
+      <Button fx:id="AfricaButton" layoutX="291.0" layoutY="174.0" mnemonicParsing="false" onAction="#AfricaButtonClicked" text="Africa" />
+      <Button fx:id="EUButton" layoutX="291.0" layoutY="105.0" mnemonicParsing="false" onAction="#EUButtonClicked" text="EU" />
+      <Button fx:id="AsiaButton" layoutX="412.0" layoutY="105.0" mnemonicParsing="false" onAction="#AsiaButtonClicked" text="Asia" />
+      <Button fx:id="AusBUtton" layoutX="476.0" layoutY="234.0" mnemonicParsing="false" onAction="#AusButtonClicked" text="Aus" />
+   </children>
+</AnchorPane>
